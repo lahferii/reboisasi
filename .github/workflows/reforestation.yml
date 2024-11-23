@@ -26,8 +26,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.email "koding12sam@gmail.com"
-          git config --local user.name "diosamuel"
+          git config --local user.email "ferinaise@gmail.com"
+          git config --local user.name "lahferii"
           git add -A
 
           arr[0]="feat: 🎉 reforestation"
