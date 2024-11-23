@@ -30,7 +30,7 @@ jobs:
           git config --local user.name "lahferii"
           git add -A
 
-          arr[0]="feat: 🎉 reforestation"
+          arr[0]="feat: 🎉 reforestation work coy"
           arr[1]="feat: 🌳 reforestation"
           arr[2]="feat: ✅ reforestation"
           arr[3]="feat: 🌲 reforestation"
