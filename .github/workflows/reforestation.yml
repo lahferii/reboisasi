@@ -6,7 +6,7 @@ on:
       - main
 
   schedule:
-    - cron: '1 * * * *'
+    - cron: '0 1/4 * * *'
 
 jobs:
   reforestation:
@@ -30,17 +30,10 @@ jobs:
           git config --local user.name "lahferii"
           git add -A
 
-          arr[0]="feat: 🎉 reforestation work coy"
-          arr[1]="feat: 🌳 reforestation"
-          arr[2]="feat: ✅ reforestation"
-          arr[3]="feat: 🌲 reforestation"
-
-          rand=$[$RANDOM % ${#arr[@]}]
-
-          git commit -m "${arr[$rand]}"
+          git commit -m "😁 = nyengir"
 
       - name: GitHub Push
-        uses: ad-m/github-push-action@main
+        uses: ad-m/github-push-action@v0.6.0
         with:
           force: true
           directory: '.'
